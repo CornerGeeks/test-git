@@ -1,3 +1,5 @@
+Outline
+=======
 1. Forked Corner Geeks Repo (https://github.com/CornerGeeks/test-git)
 2. Cloned my fork (https://github.com/thewheat/test-git) to my computer
 3. Add remote to original source (typically called "upstream")
@@ -16,3 +18,4 @@
        compare  : master
 10. Ensure that that there is the "Able to merge", "These branches can be automatically merged" message. 
     If not, you probably didn't did a git fetch upstream, git merge upstream/master master (and fix conflicts and commit if necessary)
+    While you can still submit the pull request, the maintainer will have to manually merge your code which can be annoying and/or error prone and is not nicely looked upon
